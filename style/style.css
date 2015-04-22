@@ -1,0 +1,171 @@
+/* 
+ *  RESET THE BROWSER TO UNIFORM
+ *  http://meyerweb.com/eric/tools/css/reset/ 
+ *  v2.0 | 20110126
+ *  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html, body {
+	height: 100%;
+}
+body {
+	line-height: 1;
+	font-family: arial, helvetica, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+/***
+CUSTOM CSS 
+Kai Austin 2015
+Build Day
+***/
+#splash {
+	  min-height: 700px;
+}
+#splash .wrapper {
+	display: inline-block;
+  margin-top: 5em;
+  background: rgba(255,255,255,0.75);
+  border-radius: 1em;
+  box-shadow: 0 0 25px -5px #000;
+}
+.wrapper img{
+	padding: 1em;
+}
+.wrapper h2 {
+	margin-top: 1em;
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+  border-radius: 0 0 0.5em 0.5em;
+  text-shadow: 0 0 5px #000;
+}
+nav {
+	position: fixed;
+  width: 100%;
+  padding: 0.5em;
+  color: rgba(255,255,255,0.95);
+  font-weight: 700;
+  font-family: arial, helvetica, serif;
+  text-align: center;
+  text-shadow: 0 0 5px #000;
+  font-size: 1.3em;
+  background: rgba(0, 135, 198, 0.85);
+  z-index: 1000;
+}
+nav span, nav a {
+	display: inline-block;
+  vertical-align: middle;
+  padding: 0 1em;
+  text-decoration: none;
+  color: white;
+}
+nav span:hover, nav a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+section {
+	text-align:center;
+	min-height: 100%;
+}
+section h1 {
+	font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1em;
+  color: rgba(255,255,255,0.95);
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px rgba(0, 135, 198, 0.85), 0 0 20px rgba(0, 135, 198, 0.85);
+}
+.project {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0.5em;
+	width: 300px;
+	text-align: left;
+	border: 3px solid rgba(0, 135, 198, 0.85);
+}
+.project h3 {
+  background: rgba(0, 135, 198, 0.85);
+  padding: 0.5em;
+  color: rgba(255,255,255,0.95);
+  font-weight: 700;
+  font-family: arial, helvetica, serif;
+  text-align: center;
+  text-shadow: 0 0 5px #000;
+  font-size: 1.5em;
+}
+.project .champions {
+  font-style: italic;
+  margin: 1em;
+}
+.project p.blurb {
+	padding: 1em;
+}
+.bold {
+	font-weight: 700;
+}
+
+#schedules {
+	background: url('../imgs/the_o.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.schedule {
+  display: inline-block;
+  padding: 1em;
+  text-align: left;
+  font-size: 1.5em;
+  line-height: 2em;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  border-radius: 1em;
+  box-shadow: 0 0 25px -5px #000;
+}
+.schedule li {
+	position: relative;
+}
+.schedule li span {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 4em;
+	width: 8em;
+	text-align: right;
+}
+
+footer {
+	background: rgba(0, 0, 0, 0.8);
+  padding: 0.5em;
+  text-align: right;
+  color: rgba(255,255,255,0.95);
+}
