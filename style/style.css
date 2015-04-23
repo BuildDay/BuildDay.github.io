@@ -48,6 +48,7 @@ Kai Austin 2015
 Build Day
 ***/
 #splash {
+	height: 100%;
 	  min-height: 700px;
 }
 #splash .wrapper {
