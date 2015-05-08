@@ -133,6 +133,13 @@ section h1 {
 .project p.blurb {
 	padding: 1em;
 }
+.project .times {
+  text-align: center;
+  padding: 0 0 1.5em;
+  font-weight: 700;
+  font-size: 1.1em;
+  opacity: 0.8;
+}
 .bold {
 	font-weight: 700;
 }
